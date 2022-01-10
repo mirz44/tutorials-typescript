@@ -3,7 +3,7 @@ let i: number = 5
 let username: string = "Maas Mirzaa"
 let isPrimary: boolean = true
 
-let x: any = "Cassim" // Setting variable with an "any" type which can be assigned any type of value (not recommended)
+let x: any = "Mirzaa" // Setting variable with an "any" type which can be assigned any type of value (not recommended)
 x = true
 
 let age: number
@@ -20,12 +20,12 @@ let employee: [number, string][]
 employee = [
   [1, 'Maas'],
   [2, 'Mirzaa'],
-  [3, 'Cassim']
+  [3, 'David']
 ]
 
 // Unions
 let pId: string | number // Can be assiged values of type "string" and "number"
-pId = 'maas'
+pId = 'mm1'
 pId = 11
 
 // eNums
