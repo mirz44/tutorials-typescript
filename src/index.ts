@@ -68,7 +68,7 @@ customerId = 1; // a string will give an error
 
 // Functions
 function addNum(x: number, y: number): number {
-  // Define types for the param values as well as the return value (outside of the precenteses)
+  // Define types for the param values as well as the return value (outside of the brackets)
   return x + y;
 }
 
@@ -79,7 +79,7 @@ function log(message: string | number): void {
 
 // Interfaces
 interface PersonInterface {
-  readonly id: number; // readonly value tyoe
+  readonly id: number; // readonly value type
   name: string;
   age?: number; // Not required
 }
